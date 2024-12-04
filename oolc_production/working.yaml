@@ -1,0 +1,6 @@
+project_id: oomlout_oobb_holder_electronic_breakout_board_mcu_esp32
+project_name: Oomlout Oobb Holder Electronic Breakout Board Mcu Esp32
+project_repo: https://github.com/oomlout/oomlout_oobb_holder_electronic_breakout_board_mcu_esp32
+production_format:
+  oolc_1:
+    file_location: source_files/oolc_1.cdr
