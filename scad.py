@@ -17,7 +17,7 @@ def make_scad(**kwargs):
         #filter = "test"
 
         kwargs["save_type"] = "none"
-        kwargs["save_type"] = "all"
+        #kwargs["save_type"] = "all"
         
         navigation = False
         #navigation = True    
@@ -180,7 +180,7 @@ def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, *
 
     #lift cubes
 
-    min = 0.25
+    min = 0.5
     size_lift_cube_top = [5.25-min, 6.85-min, depth_lift]
 
     p3 = copy.deepcopy(kwargs)
@@ -246,13 +246,13 @@ def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, *
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "n"
     p3["shape"] = f"oobb_cube"
-    w = 18
-    h = 5
+    w = 18.5
+    h = 8
     d = depth_total
     p3["size"] = [w, h, d]
     pos1 = copy.deepcopy(pos)
     pos1[0] += shift_board_x
-    pos1[1] += 27.9 + shift_board_y- h/2
+    pos1[1] += 26.9 + shift_board_y- h/2
     pos1[2] += 0
     p3["pos"] = pos1
     #p3["m"] = "#"

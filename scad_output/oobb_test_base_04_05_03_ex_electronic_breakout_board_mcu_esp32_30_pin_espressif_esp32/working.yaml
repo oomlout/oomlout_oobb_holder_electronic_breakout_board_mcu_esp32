@@ -2925,52 +2925,52 @@ thing:
   - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
         height: 5
         pos:
-        - 9.125
-        - 24.175
+        - 9.25
+        - 24.3
         - 3
         shape: cube
         size:
-        - 5.0
-        - 6.6
+        - 4.75
+        - 6.35
         - 3
         type: positive
         width: 4
   - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
         height: 5
         pos:
-        - -14.125
-        - 24.175
+        - -14.0
+        - 24.3
         - 3
         shape: cube
         size:
-        - 5.0
-        - 6.6
+        - 4.75
+        - 6.35
         - 3
         type: positive
         width: 4
   - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
         height: 5
         pos:
-        - -14.125
-        - -20.775000000000002
+        - -14.0
+        - -20.650000000000002
         - 3
         shape: cube
         size:
-        - 5.0
-        - 6.6
+        - 4.75
+        - 6.35
         - 3
         type: positive
         width: 4
   - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
         height: 5
         pos:
-        - 9.125
-        - -20.775000000000002
+        - 9.25
+        - -20.650000000000002
         - 3
         shape: cube
         size:
-        - 5.0
-        - 6.6
+        - 4.75
+        - 6.35
         - 3
         type: positive
         width: 4
@@ -3003,13 +3003,13 @@ thing:
   - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
         height: 5
         pos:
-        - -9.0
-        - 27.9
+        - -9.25
+        - 23.9
         - 0
         shape: cube
         size:
-        - 18
-        - 5
+        - 18.5
+        - 8
         - 6
         type: negative
         width: 4
@@ -3154,8 +3154,8 @@ thing:
     save_type: all
     shape: oobb_cube
     size:
-    - 5.0
-    - 6.6
+    - 4.75
+    - 6.35
     - 3
     thickness: 3
     type: p
@@ -3172,8 +3172,8 @@ thing:
     save_type: all
     shape: oobb_cube
     size:
-    - 5.0
-    - 6.6
+    - 4.75
+    - 6.35
     - 3
     thickness: 3
     type: p
@@ -3190,8 +3190,8 @@ thing:
     save_type: all
     shape: oobb_cube
     size:
-    - 5.0
-    - 6.6
+    - 4.75
+    - 6.35
     - 3
     thickness: 3
     type: p
@@ -3208,8 +3208,8 @@ thing:
     save_type: all
     shape: oobb_cube
     size:
-    - 5.0
-    - 6.6
+    - 4.75
+    - 6.35
     - 3
     thickness: 3
     type: p
@@ -3257,13 +3257,13 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 30.4
+    - 27.9
     - 0
     save_type: all
     shape: oobb_cube
     size:
-    - 18
-    - 5
+    - 18.5
+    - 8
     - 6
     thickness: 3
     type: n
@@ -3293,13 +3293,13 @@ thing:
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_28.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_-18.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_-18.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
-  - oobb_cube_shape_p_type_11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
-  - oobb_cube_shape_p_type_-11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
-  - oobb_cube_shape_p_type_-11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
-  - oobb_cube_shape_p_type_11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
+  - oobb_cube_shape_p_type_11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+  - oobb_cube_shape_p_type_-11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+  - oobb_cube_shape_p_type_-11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+  - oobb_cube_shape_p_type_11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
   - oobb_cube_shape_n_type_12.7_5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
   - oobb_cube_shape_n_type_-12.7_5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
-  - oobb_cube_shape_n_type_0_30.4_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_18_5_6_size
+  - oobb_cube_shape_n_type_0_27.9_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_18.5_8_6_size
   - oobb_cube_shape_n_type_0_36.9_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_12_14_6_size
   description: test base 4x5x3
   extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
