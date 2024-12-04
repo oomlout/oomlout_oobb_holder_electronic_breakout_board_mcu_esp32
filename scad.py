@@ -17,7 +17,7 @@ def make_scad(**kwargs):
         #filter = "test"
 
         kwargs["save_type"] = "none"
-        #kwargs["save_type"] = "all"
+        kwargs["save_type"] = "all"
         
         navigation = False
         #navigation = True    
@@ -49,14 +49,24 @@ def make_scad(**kwargs):
         
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
+        p3["width"] = 4
+        p3["height"] = 5
+        p3["thickness"] = 3
+        p3["extra"] = "electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32"
         part["kwargs"] = p3
         part["name"] = "base"
         parts.append(part)
 
-        
+        part = copy.deepcopy(part_default)
+        p3 = copy.deepcopy(kwargs)
+        p3["width"] = 4
+        p3["height"] = 4
+        p3["thickness"] = 3
+        p3["extra"] = "electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32"
+        part["kwargs"] = p3
+        part["name"] = "base"
+        parts.append(part)
+
     #make the parts
     if True:
         for part in parts:
@@ -82,6 +92,11 @@ def make_scad(**kwargs):
         generate_navigation(sort = sort)
 
 def get_base(thing, **kwargs):
+    extra = kwargs.get("extra", "")
+    if "electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32" in extra:
+        get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, **kwargs)
+
+def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, **kwargs):
 
     prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)
@@ -109,10 +124,112 @@ def get_base(thing, **kwargs):
     p3["shape"] = f"oobb_holes"
     p3["both_holes"] = True  
     p3["depth"] = depth
-    p3["holes"] = "perimeter"
+    if height == 4:
+        p3["holes"] = ["top", "bottom"]
+    else:
+        p3["holes"] = "perimeter"
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+
+    depth_lift = 3
+    depth_total = depth + depth_lift
+    
+    #add screw_countersunk_holes
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_screw_countersunk"
+    p3["depth"] = depth_total
+    p3["radius_name"] = "m3"
+    p3["holes"] = "perimeter"
+    
+    pos1 = copy.deepcopy(pos)
+    pos1[2] += 0
+    shift_x = 0.9*25.4/2
+    shift_y = 1.85*25.4/2
+    pos11 = copy.deepcopy(pos1)
+    pos11[0] += shift_x
+    pos11[1] += shift_y
+    pos12 = copy.deepcopy(pos1)
+    pos12[0] += -shift_x
+    pos12[1] += shift_y
+    pos13 = copy.deepcopy(pos1)
+    pos13[0] += -shift_x
+    pos13[1] += -shift_y
+    pos14 = copy.deepcopy(pos1)
+    pos14[0] += shift_x
+    pos14[1] += -shift_y
+    poss = []
+    poss.append(pos11)
+    poss.append(pos12)
+    poss.append(pos13)
+    poss.append(pos14)
+    p3["pos"] = poss
+    rot1 = copy.deepcopy(rot)
+    rot1[0] = 180
+    p3["rot"] = rot1
+    #p3["m"] = "#"
+    oobb_base.append_full(thing,**p3)
+
+    #lift cubes
+
+    min = 0.25
+    size_lift_cube_top = [5.25-min, 6.85-min, depth_lift]
+
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_cube"
+    p3["size"] = size_lift_cube_top    
+    pos1 = copy.deepcopy(pos)
+    pos1[2] += depth
+    pos11 = copy.deepcopy(pos1)
+    shift_x = 11.625
+    shift_y = 22.475
+    pos11[0] += shift_x
+    pos11[1] += shift_y
+    pos12 = copy.deepcopy(pos1)
+    pos12[0] += -shift_x
+    pos12[1] += shift_y
+    pos13 = copy.deepcopy(pos1)
+    pos13[0] += -shift_x
+    pos13[1] += -shift_y
+    pos14 = copy.deepcopy(pos1)
+    pos14[0] += shift_x
+    pos14[1] += -shift_y
+
+    poss = []
+    poss.append(pos11)
+    poss.append(pos12)
+    poss.append(pos13)
+    poss.append(pos14)
+    p3["pos"] = poss    
+    #p3["m"] = "#"
+    oobb_base.append_full(thing,**p3)
+
+
+    #pin under cutouts
+    ex = 1
+    size_pin_cutout_cube = [2.54 + ex, (2.54*15)+ex, depth_total]
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_cube"
+    p3["size"] = size_pin_cutout_cube
+    pos1 = copy.deepcopy(pos)
+    pos1[2] += 0
+    pos11 = copy.deepcopy(pos1)
+    shift_x = 1*25.4/2
+    shift_y = 0
+    pos11[0] += shift_x
+    pos11[1] += shift_y
+    pos12 = copy.deepcopy(pos1)
+    pos12[0] += -shift_x
+    pos12[1] += shift_y
+    poss = []
+    poss.append(pos11)
+    poss.append(pos12)
+    p3["pos"] = poss
+    #p3["m"] = "#"
     oobb_base.append_full(thing,**p3)
 
     if prepare_print:
