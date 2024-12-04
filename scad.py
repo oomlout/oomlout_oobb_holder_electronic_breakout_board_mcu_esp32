@@ -127,7 +127,7 @@ def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, *
     if height == 4:
         p3["holes"] = ["top", "bottom"]
     else:
-        p3["holes"] = "perimeter"
+        p3["holes"] = ["top", "bottom","left"]
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
@@ -142,24 +142,30 @@ def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, *
     p3["shape"] = f"oobb_screw_countersunk"
     p3["depth"] = depth_total
     p3["radius_name"] = "m3"
-    p3["holes"] = "perimeter"
     
+    
+    shift_board_x = 0
+    shift_board_y = 0
+    if height == 5:
+        shift_board_x = 0
+        shift_board_y = 5
+
     pos1 = copy.deepcopy(pos)
     pos1[2] += 0
     shift_x = 0.9*25.4/2
     shift_y = 1.85*25.4/2
     pos11 = copy.deepcopy(pos1)
-    pos11[0] += shift_x
-    pos11[1] += shift_y
+    pos11[0] += shift_x + shift_board_x
+    pos11[1] += shift_y + shift_board_y
     pos12 = copy.deepcopy(pos1)
-    pos12[0] += -shift_x
-    pos12[1] += shift_y
+    pos12[0] += -shift_x + shift_board_x
+    pos12[1] += shift_y + shift_board_y
     pos13 = copy.deepcopy(pos1)
-    pos13[0] += -shift_x
-    pos13[1] += -shift_y
+    pos13[0] += -shift_x + shift_board_x
+    pos13[1] += -shift_y + shift_board_y
     pos14 = copy.deepcopy(pos1)
-    pos14[0] += shift_x
-    pos14[1] += -shift_y
+    pos14[0] += shift_x + shift_board_x
+    pos14[1] += -shift_y + shift_board_y
     poss = []
     poss.append(pos11)
     poss.append(pos12)
@@ -182,6 +188,8 @@ def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, *
     p3["shape"] = f"oobb_cube"
     p3["size"] = size_lift_cube_top    
     pos1 = copy.deepcopy(pos)
+    pos1[0] += shift_board_x
+    pos1[1] += shift_board_y
     pos1[2] += depth
     pos11 = copy.deepcopy(pos1)
     shift_x = 11.625
@@ -216,6 +224,8 @@ def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, *
     p3["shape"] = f"oobb_cube"
     p3["size"] = size_pin_cutout_cube
     pos1 = copy.deepcopy(pos)
+    pos1[0] += shift_board_x
+    pos1[1] += shift_board_y
     pos1[2] += 0
     pos11 = copy.deepcopy(pos1)
     shift_x = 1*25.4/2
@@ -229,6 +239,38 @@ def get_base_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32(thing, *
     poss.append(pos11)
     poss.append(pos12)
     p3["pos"] = poss
+    #p3["m"] = "#"
+    oobb_base.append_full(thing,**p3)
+
+    #reset button cutout
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_cube"
+    w = 18
+    h = 5
+    d = depth_total
+    p3["size"] = [w, h, d]
+    pos1 = copy.deepcopy(pos)
+    pos1[0] += shift_board_x
+    pos1[1] += 27.9 + shift_board_y- h/2
+    pos1[2] += 0
+    p3["pos"] = pos1
+    #p3["m"] = "#"
+    oobb_base.append_full(thing,**p3)
+
+    #usb cutout
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_cube"
+    w = 12
+    h = 14
+    d = depth_total
+    p3["size"] = [w, h, d]
+    pos1 = copy.deepcopy(pos)
+    pos1[0] += shift_board_x
+    pos1[1] += 31.9 + shift_board_y
+    pos1[2] += 0
+    p3["pos"] = pos1
     #p3["m"] = "#"
     oobb_base.append_full(thing,**p3)
 

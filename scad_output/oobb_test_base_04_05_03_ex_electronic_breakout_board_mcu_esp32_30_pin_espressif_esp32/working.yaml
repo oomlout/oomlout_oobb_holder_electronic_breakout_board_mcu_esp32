@@ -158,7 +158,7 @@ thing:
         inclusion: laser
         m: ''
         pos: &id006
-        - -7.5
+        - 22.5
         - -30.0
         - -100.0
         r: 3.0
@@ -182,8 +182,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id007
-        - -7.5
-        - 30.0
+        - 22.5
+        - -15.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -206,8 +206,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id008
-        - 7.5
-        - -30.0
+        - 22.5
+        - 0.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -230,8 +230,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id009
-        - 7.5
-        - 30.0
+        - 22.5
+        - 15.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -255,7 +255,7 @@ thing:
         m: ''
         pos: &id010
         - 22.5
-        - -30.0
+        - 30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -278,8 +278,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id011
-        - 22.5
-        - -15.0
+        - -22.5
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -302,8 +302,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id012
-        - 22.5
-        - 0.0
+        - -7.5
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -326,8 +326,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id013
-        - 22.5
-        - 15.0
+        - 7.5
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -351,7 +351,7 @@ thing:
         m: ''
         pos: &id014
         - 22.5
-        - 30.0
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -374,120 +374,120 @@ thing:
         inclusion: laser
         m: ''
         pos: &id015
-        - -22.5
+        - 22.5
         - -30.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id015
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id015
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id016
-        - -22.5
-        - -22.5
+        - 22.5
+        - -15.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id016
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id016
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id017
-        - -22.5
-        - -15.0
+        - 22.5
+        - 0.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id017
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id017
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id018
-        - -22.5
-        - -7.5
+        - 22.5
+        - 15.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id018
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id018
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id019
-        - -22.5
-        - 0.0
+        - 22.5
+        - 30.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id019
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id019
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
@@ -495,7 +495,7 @@ thing:
         m: ''
         pos: &id020
         - -22.5
-        - 7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -519,7 +519,7 @@ thing:
         m: ''
         pos: &id021
         - -22.5
-        - 15.0
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -543,7 +543,7 @@ thing:
         m: ''
         pos: &id022
         - -22.5
-        - 22.5
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -567,7 +567,7 @@ thing:
         m: ''
         pos: &id023
         - -22.5
-        - 30.0
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -590,8 +590,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id024
-        - -15.0
-        - -30.0
+        - -22.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -614,8 +614,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id025
-        - -15.0
-        - 30.0
+        - -22.5
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -638,8 +638,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id026
-        - -7.5
-        - -30.0
+        - -22.5
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -662,8 +662,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id027
-        - -7.5
-        - 30.0
+        - -22.5
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -686,8 +686,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id028
-        - 0.0
-        - -30.0
+        - -22.5
+        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -710,8 +710,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id029
-        - 0.0
-        - 30.0
+        - 22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -734,8 +734,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id030
-        - 7.5
-        - -30.0
+        - 22.5
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -758,8 +758,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id031
-        - 7.5
-        - 30.0
+        - 22.5
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -782,8 +782,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id032
-        - 15.0
-        - -30.0
+        - 22.5
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -806,8 +806,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id033
-        - 15.0
-        - 30.0
+        - 22.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -831,7 +831,7 @@ thing:
         m: ''
         pos: &id034
         - 22.5
-        - -30.0
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -855,7 +855,7 @@ thing:
         m: ''
         pos: &id035
         - 22.5
-        - -22.5
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -879,7 +879,7 @@ thing:
         m: ''
         pos: &id036
         - 22.5
-        - -15.0
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -903,7 +903,7 @@ thing:
         m: ''
         pos: &id037
         - 22.5
-        - -7.5
+        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -926,8 +926,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id038
-        - 22.5
-        - 0.0
+        - -22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -950,8 +950,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id039
-        - 22.5
-        - 7.5
+        - -15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -974,8 +974,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id040
-        - 22.5
-        - 15.0
+        - -7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -998,8 +998,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id041
-        - 22.5
-        - 22.5
+        - 0.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1022,8 +1022,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id042
-        - 22.5
-        - 30.0
+        - 7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1046,7 +1046,7 @@ thing:
         inclusion: laser
         m: ''
         pos: &id043
-        - -22.5
+        - 15.0
         - -30.0
         - -100.0
         r: 1.5
@@ -1070,8 +1070,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id044
-        - -22.5
-        - -22.5
+        - 22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1095,7 +1095,7 @@ thing:
         m: ''
         pos: &id045
         - -22.5
-        - -15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1119,7 +1119,7 @@ thing:
         m: ''
         pos: &id046
         - -22.5
-        - -7.5
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1143,7 +1143,7 @@ thing:
         m: ''
         pos: &id047
         - -22.5
-        - 0.0
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1167,7 +1167,7 @@ thing:
         m: ''
         pos: &id048
         - -22.5
-        - 7.5
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1191,7 +1191,7 @@ thing:
         m: ''
         pos: &id049
         - -22.5
-        - 15.0
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1215,7 +1215,7 @@ thing:
         m: ''
         pos: &id050
         - -22.5
-        - 22.5
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1239,7 +1239,7 @@ thing:
         m: ''
         pos: &id051
         - -22.5
-        - 30.0
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1262,8 +1262,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id052
-        - -15.0
-        - -30.0
+        - -22.5
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1286,7 +1286,7 @@ thing:
         inclusion: laser
         m: ''
         pos: &id053
-        - -15.0
+        - -22.5
         - 30.0
         - -100.0
         r: 1.5
@@ -1310,7 +1310,7 @@ thing:
         inclusion: laser
         m: ''
         pos: &id054
-        - -7.5
+        - 22.5
         - -30.0
         - -100.0
         r: 1.5
@@ -1334,8 +1334,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id055
-        - -7.5
-        - 30.0
+        - 22.5
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1358,8 +1358,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id056
-        - 0.0
-        - -30.0
+        - 22.5
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1382,8 +1382,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id057
-        - 0.0
-        - 30.0
+        - 22.5
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1406,8 +1406,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id058
-        - 7.5
-        - -30.0
+        - 22.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1430,8 +1430,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id059
+        - 22.5
         - 7.5
-        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1454,8 +1454,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id060
+        - 22.5
         - 15.0
-        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1478,8 +1478,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id061
-        - 15.0
-        - 30.0
+        - 22.5
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1503,7 +1503,7 @@ thing:
         m: ''
         pos: &id062
         - 22.5
-        - -30.0
+        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1526,8 +1526,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id063
-        - 22.5
         - -22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1550,8 +1550,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id064
-        - 22.5
         - -15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1574,8 +1574,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id065
-        - 22.5
         - -7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1598,8 +1598,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id066
-        - 22.5
         - 0.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1622,8 +1622,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id067
-        - 22.5
         - 7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1646,8 +1646,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id068
-        - 22.5
         - 15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1671,7 +1671,7 @@ thing:
         m: ''
         pos: &id069
         - 22.5
-        - 22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1694,8 +1694,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id070
-        - 22.5
-        - 30.0
+        - -22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1719,7 +1719,7 @@ thing:
         m: ''
         pos: &id071
         - -22.5
-        - -30.0
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1743,7 +1743,7 @@ thing:
         m: ''
         pos: &id072
         - -22.5
-        - -22.5
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1767,7 +1767,7 @@ thing:
         m: ''
         pos: &id073
         - -22.5
-        - -15.0
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1791,7 +1791,7 @@ thing:
         m: ''
         pos: &id074
         - -22.5
-        - -7.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1815,7 +1815,7 @@ thing:
         m: ''
         pos: &id075
         - -22.5
-        - 0.0
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1839,7 +1839,7 @@ thing:
         m: ''
         pos: &id076
         - -22.5
-        - 7.5
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1863,7 +1863,7 @@ thing:
         m: ''
         pos: &id077
         - -22.5
-        - 15.0
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1887,7 +1887,7 @@ thing:
         m: ''
         pos: &id078
         - -22.5
-        - 22.5
+        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1910,8 +1910,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id079
-        - -22.5
-        - 30.0
+        - 22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1934,8 +1934,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id080
-        - -15.0
-        - -30.0
+        - 22.5
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1958,8 +1958,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id081
+        - 22.5
         - -15.0
-        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1982,8 +1982,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id082
+        - 22.5
         - -7.5
-        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2006,8 +2006,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id083
-        - -7.5
-        - 30.0
+        - 22.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2030,8 +2030,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id084
-        - 0.0
-        - -30.0
+        - 22.5
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2054,8 +2054,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id085
-        - 0.0
-        - 30.0
+        - 22.5
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2078,8 +2078,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id086
-        - 7.5
-        - -30.0
+        - 22.5
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2102,7 +2102,7 @@ thing:
         inclusion: laser
         m: ''
         pos: &id087
-        - 7.5
+        - 22.5
         - 30.0
         - -100.0
         r: 1.5
@@ -2126,7 +2126,7 @@ thing:
         inclusion: laser
         m: ''
         pos: &id088
-        - 15.0
+        - -22.5
         - -30.0
         - -100.0
         r: 1.5
@@ -2150,8 +2150,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id089
-        - 15.0
-        - 30.0
+        - -15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2174,7 +2174,7 @@ thing:
         inclusion: laser
         m: ''
         pos: &id090
-        - 22.5
+        - -7.5
         - -30.0
         - -100.0
         r: 1.5
@@ -2198,8 +2198,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id091
-        - 22.5
-        - -22.5
+        - 0.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2222,8 +2222,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id092
-        - 22.5
-        - -15.0
+        - 7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2246,8 +2246,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id093
-        - 22.5
-        - -7.5
+        - 15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2271,7 +2271,7 @@ thing:
         m: ''
         pos: &id094
         - 22.5
-        - 0.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -2287,102 +2287,6 @@ thing:
         inclusion: 'true'
         m: ''
         pos: *id094
-        r: 1.5
-        shape: cylinder
-        type: negative
-    - - h: 200
-        inclusion: laser
-        m: ''
-        pos: &id095
-        - 22.5
-        - 7.5
-        - -100.0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 3dpr
-        m: ''
-        pos: *id095
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 'true'
-        m: ''
-        pos: *id095
-        r: 1.5
-        shape: cylinder
-        type: negative
-    - - h: 200
-        inclusion: laser
-        m: ''
-        pos: &id096
-        - 22.5
-        - 15.0
-        - -100.0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 3dpr
-        m: ''
-        pos: *id096
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 'true'
-        m: ''
-        pos: *id096
-        r: 1.5
-        shape: cylinder
-        type: negative
-    - - h: 200
-        inclusion: laser
-        m: ''
-        pos: &id097
-        - 22.5
-        - 22.5
-        - -100.0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 3dpr
-        m: ''
-        pos: *id097
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 'true'
-        m: ''
-        pos: *id097
-        r: 1.5
-        shape: cylinder
-        type: negative
-    - - h: 200
-        inclusion: laser
-        m: ''
-        pos: &id098
-        - 22.5
-        - 30.0
-        - -100.0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 3dpr
-        m: ''
-        pos: *id098
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 'true'
-        m: ''
-        pos: *id098
         r: 1.5
         shape: cylinder
         type: negative
@@ -2406,7 +2310,7 @@ thing:
           h: 6
           height: 5
           inclusion: laser
-          pos: &id099
+          pos: &id095
           - 0
           - 0
           - -6.0
@@ -2420,7 +2324,7 @@ thing:
           h: 6
           height: 5
           inclusion: 3dpr
-          pos: *id099
+          pos: *id095
           r: 1.5
           shape: cylinder
           type: positive
@@ -2430,7 +2334,7 @@ thing:
           h: 6
           height: 5
           inclusion: 'true'
-          pos: *id099
+          pos: *id095
           r: 1.5
           radius: 1.5
           shape: cylinder
@@ -2455,7 +2359,7 @@ thing:
           h: 6
           height: 5
           inclusion: laser
-          pos: &id100
+          pos: &id096
           - 0
           - 0
           - -6.0
@@ -2469,7 +2373,7 @@ thing:
           h: 6
           height: 5
           inclusion: 3dpr
-          pos: *id100
+          pos: *id096
           r: 1.8
           shape: cylinder
           type: positive
@@ -2479,7 +2383,7 @@ thing:
           h: 6
           height: 5
           inclusion: 'true'
-          pos: *id100
+          pos: *id096
           r: 1.8
           radius: 1.8
           shape: cylinder
@@ -2496,6 +2400,224 @@ thing:
           - -1.7
           r1: 1.5
           r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 4
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: laser
+          pos: &id097
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 3dpr
+          pos: *id097
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 'true'
+          pos: *id097
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+      pos:
+      - 11.43
+      - 28.495
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: n
+  - - objects:
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 1.7
+          height: 5
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 4
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: laser
+          pos: &id098
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 3dpr
+          pos: *id098
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 'true'
+          pos: *id098
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 1.9
+          height: 5
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 4
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: laser
+          pos: &id099
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 3dpr
+          pos: *id099
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 'true'
+          pos: *id099
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 4
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 1.7
+          height: 5
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 4
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: laser
+          pos: &id100
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 3dpr
+          pos: *id100
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 'true'
+          pos: *id100
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+      pos:
+      - -11.43
+      - 28.495
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: n
+  - - objects:
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 1.7
+          height: 5
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
           shape: cylinder
           type: positive
           width: 4
@@ -2534,66 +2656,6 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      pos:
-      - 11.43
-      - 23.495
-      - 0
-      rot:
-      - 180
-      - 0
-      - 0
-      type: rotation
-      typetype: n
-  - - objects:
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 1.7
-          height: 5
-          inclusion: laser
-          pos:
-          - 0
-          - 0
-          - -1.7
-          r1: 1.5
-          r2: 2.4
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: laser
-          pos: &id102
-          - 0
-          - 0
-          - -6.0
-          r: 1.5
-          radius: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 3dpr
-          pos: *id102
-          r: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 'true'
-          pos: *id102
-          r: 1.5
-          radius: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
       - - depth: 6
           extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
           h: 1.9
@@ -2613,7 +2675,7 @@ thing:
           h: 6
           height: 5
           inclusion: laser
-          pos: &id103
+          pos: &id102
           - 0
           - 0
           - -6.0
@@ -2627,7 +2689,7 @@ thing:
           h: 6
           height: 5
           inclusion: 3dpr
-          pos: *id103
+          pos: *id102
           r: 1.8
           shape: cylinder
           type: positive
@@ -2637,7 +2699,7 @@ thing:
           h: 6
           height: 5
           inclusion: 'true'
-          pos: *id103
+          pos: *id102
           r: 1.8
           radius: 1.8
           shape: cylinder
@@ -2654,6 +2716,66 @@ thing:
           - -1.7
           r1: 1.5
           r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 4
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: laser
+          pos: &id103
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 3dpr
+          pos: *id103
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+        - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 6
+          height: 5
+          inclusion: 'true'
+          pos: *id103
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 4
+      pos:
+      - -11.43
+      - -18.495
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: n
+  - - objects:
+      - - depth: 6
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          h: 1.7
+          height: 5
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
           shape: cylinder
           type: positive
           width: 4
@@ -2692,28 +2814,17 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      pos:
-      - -11.43
-      - 23.495
-      - 0
-      rot:
-      - 180
-      - 0
-      - 0
-      type: rotation
-      typetype: n
-  - - objects:
       - - depth: 6
           extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 1.7
+          h: 1.9
           height: 5
-          inclusion: laser
+          inclusion: 3dpr
           pos:
           - 0
           - 0
-          - -1.7
-          r1: 1.5
-          r2: 2.4
+          - -1.9
+          r1: 1.8
+          r2: 3.6
           shape: cylinder
           type: positive
           width: 4
@@ -2726,8 +2837,8 @@ thing:
           - 0
           - 0
           - -6.0
-          r: 1.5
-          radius: 1.5
+          r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 4
@@ -2737,7 +2848,7 @@ thing:
           height: 5
           inclusion: 3dpr
           pos: *id105
-          r: 1.5
+          r: 1.8
           shape: cylinder
           type: positive
           width: 4
@@ -2747,22 +2858,22 @@ thing:
           height: 5
           inclusion: 'true'
           pos: *id105
-          r: 1.5
-          radius: 1.5
+          r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 4
       - - depth: 6
           extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 1.9
+          h: 1.7
           height: 5
-          inclusion: 3dpr
+          inclusion: 'true'
           pos:
           - 0
           - 0
-          - -1.9
-          r1: 1.8
-          r2: 3.6
+          - -1.7
+          r1: 1.5
+          r2: 2.9
           shape: cylinder
           type: positive
           width: 4
@@ -2775,8 +2886,8 @@ thing:
           - 0
           - 0
           - -6.0
-          r: 1.8
-          radius: 1.8
+          r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -2786,7 +2897,7 @@ thing:
           height: 5
           inclusion: 3dpr
           pos: *id106
-          r: 1.8
+          r: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -2796,213 +2907,6 @@ thing:
           height: 5
           inclusion: 'true'
           pos: *id106
-          r: 1.8
-          radius: 1.8
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 1.7
-          height: 5
-          inclusion: 'true'
-          pos:
-          - 0
-          - 0
-          - -1.7
-          r1: 1.5
-          r2: 2.9
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: laser
-          pos: &id107
-          - 0
-          - 0
-          - -6.0
-          r: 1.5
-          radius: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 3dpr
-          pos: *id107
-          r: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 'true'
-          pos: *id107
-          r: 1.5
-          radius: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-      pos:
-      - -11.43
-      - -23.495
-      - 0
-      rot:
-      - 180
-      - 0
-      - 0
-      type: rotation
-      typetype: n
-  - - objects:
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 1.7
-          height: 5
-          inclusion: laser
-          pos:
-          - 0
-          - 0
-          - -1.7
-          r1: 1.5
-          r2: 2.4
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: laser
-          pos: &id108
-          - 0
-          - 0
-          - -6.0
-          r: 1.5
-          radius: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 3dpr
-          pos: *id108
-          r: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 'true'
-          pos: *id108
-          r: 1.5
-          radius: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 1.9
-          height: 5
-          inclusion: 3dpr
-          pos:
-          - 0
-          - 0
-          - -1.9
-          r1: 1.8
-          r2: 3.6
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: laser
-          pos: &id109
-          - 0
-          - 0
-          - -6.0
-          r: 1.8
-          radius: 1.8
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 3dpr
-          pos: *id109
-          r: 1.8
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 'true'
-          pos: *id109
-          r: 1.8
-          radius: 1.8
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 1.7
-          height: 5
-          inclusion: 'true'
-          pos:
-          - 0
-          - 0
-          - -1.7
-          r1: 1.5
-          r2: 2.9
-          shape: cylinder
-          type: positive
-          width: 4
-      - - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: laser
-          pos: &id110
-          - 0
-          - 0
-          - -6.0
-          r: 1.5
-          radius: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 3dpr
-          pos: *id110
-          r: 1.5
-          shape: cylinder
-          type: positive
-          width: 4
-        - depth: 6
-          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
-          h: 6
-          height: 5
-          inclusion: 'true'
-          pos: *id110
           r: 1.5
           radius: 1.5
           shape: cylinder
@@ -3010,7 +2914,7 @@ thing:
           width: 4
       pos:
       - 11.43
-      - -23.495
+      - -18.495
       - 0
       rot:
       - 180
@@ -3022,7 +2926,7 @@ thing:
         height: 5
         pos:
         - 9.125
-        - 19.175
+        - 24.175
         - 3
         shape: cube
         size:
@@ -3035,7 +2939,7 @@ thing:
         height: 5
         pos:
         - -14.125
-        - 19.175
+        - 24.175
         - 3
         shape: cube
         size:
@@ -3048,7 +2952,7 @@ thing:
         height: 5
         pos:
         - -14.125
-        - -25.775000000000002
+        - -20.775000000000002
         - 3
         shape: cube
         size:
@@ -3061,7 +2965,7 @@ thing:
         height: 5
         pos:
         - 9.125
-        - -25.775000000000002
+        - -20.775000000000002
         - 3
         shape: cube
         size:
@@ -3074,7 +2978,7 @@ thing:
         height: 5
         pos:
         - 10.93
-        - -19.55
+        - -14.55
         - 0
         shape: cube
         size:
@@ -3087,12 +2991,38 @@ thing:
         height: 5
         pos:
         - -14.469999999999999
-        - -19.55
+        - -14.55
         - 0
         shape: cube
         size:
         - 3.54
         - 39.1
+        - 6
+        type: negative
+        width: 4
+  - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        pos:
+        - -9.0
+        - 27.9
+        - 0
+        shape: cube
+        size:
+        - 18
+        - 5
+        - 6
+        type: negative
+        width: 4
+  - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        pos:
+        - -6.0
+        - 29.9
+        - 0
+        shape: cube
+        size:
+        - 12
+        - 14
         - 6
         type: negative
         width: 4
@@ -3116,7 +3046,10 @@ thing:
     depth: 3
     extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
     height: 5
-    holes: perimeter
+    holes:
+    - top
+    - bottom
+    - left
     modes:
     - 3dpr
     overwrite: true
@@ -3132,13 +3065,12 @@ thing:
   - depth: 6
     extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
     height: 5
-    holes: perimeter
     modes:
     - 3dpr
     overwrite: true
     pos:
     - 11.43
-    - 23.495
+    - 28.495
     - 0
     radius_name: m3
     rot:
@@ -3153,13 +3085,12 @@ thing:
   - depth: 6
     extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
     height: 5
-    holes: perimeter
     modes:
     - 3dpr
     overwrite: true
     pos:
     - -11.43
-    - 23.495
+    - 28.495
     - 0
     radius_name: m3
     rot:
@@ -3174,13 +3105,12 @@ thing:
   - depth: 6
     extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
     height: 5
-    holes: perimeter
     modes:
     - 3dpr
     overwrite: true
     pos:
     - -11.43
-    - -23.495
+    - -18.495
     - 0
     radius_name: m3
     rot:
@@ -3195,13 +3125,12 @@ thing:
   - depth: 6
     extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
     height: 5
-    holes: perimeter
     modes:
     - 3dpr
     overwrite: true
     pos:
     - 11.43
-    - -23.495
+    - -18.495
     - 0
     radius_name: m3
     rot:
@@ -3220,7 +3149,7 @@ thing:
     overwrite: true
     pos:
     - 11.625
-    - 22.475
+    - 27.475
     - 3
     save_type: all
     shape: oobb_cube
@@ -3238,7 +3167,7 @@ thing:
     overwrite: true
     pos:
     - -11.625
-    - 22.475
+    - 27.475
     - 3
     save_type: all
     shape: oobb_cube
@@ -3256,7 +3185,7 @@ thing:
     overwrite: true
     pos:
     - -11.625
-    - -22.475
+    - -17.475
     - 3
     save_type: all
     shape: oobb_cube
@@ -3274,7 +3203,7 @@ thing:
     overwrite: true
     pos:
     - 11.625
-    - -22.475
+    - -17.475
     - 3
     save_type: all
     shape: oobb_cube
@@ -3292,7 +3221,7 @@ thing:
     overwrite: true
     pos:
     - 12.7
-    - 0
+    - 5
     - 0
     save_type: all
     shape: oobb_cube
@@ -3310,7 +3239,7 @@ thing:
     overwrite: true
     pos:
     - -12.7
-    - 0
+    - 5
     - 0
     save_type: all
     shape: oobb_cube
@@ -3321,19 +3250,57 @@ thing:
     thickness: 3
     type: n
     width: 4
+  - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+    height: 5
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 30.4
+    - 0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 18
+    - 5
+    - 6
+    thickness: 3
+    type: n
+    width: 4
+  - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+    height: 5
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 36.9
+    - 0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 12
+    - 14
+    - 6
+    thickness: 3
+    type: n
+    width: 4
   components_string:
   - oobb_plate_shape_p_type_3_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra
-  - oobb_holes_shape_p_type_3_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_true_both_holes_perimeter_holes
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_perimeter_holes_180_0_0_rot
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_perimeter_holes_180_0_0_rot
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_-23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_perimeter_holes_180_0_0_rot
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_-23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_perimeter_holes_180_0_0_rot
-  - oobb_cube_shape_p_type_11.625_22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
-  - oobb_cube_shape_p_type_-11.625_22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
-  - oobb_cube_shape_p_type_-11.625_-22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
-  - oobb_cube_shape_p_type_11.625_-22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
-  - oobb_cube_shape_n_type_12.7_0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
-  - oobb_cube_shape_n_type_-12.7_0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
+  - oobb_holes_shape_p_type_3_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_true_both_holes_'top'_'bottom'_'left'_holes
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_28.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_28.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_-18.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_-18.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+  - oobb_cube_shape_p_type_11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
+  - oobb_cube_shape_p_type_-11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
+  - oobb_cube_shape_p_type_-11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
+  - oobb_cube_shape_p_type_11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_5.0_6.6_3_size
+  - oobb_cube_shape_n_type_12.7_5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
+  - oobb_cube_shape_n_type_-12.7_5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
+  - oobb_cube_shape_n_type_0_30.4_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_18_5_6_size
+  - oobb_cube_shape_n_type_0_36.9_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_12_14_6_size
   description: test base 4x5x3
   extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
   folder: C:\gh\oomlout_oobb_version_4_generated_parts\thigns\oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
