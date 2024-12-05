@@ -1,0 +1,5673 @@
+parts:
+  oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32:
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+    kwargs:
+      extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      height: 4
+      modes:
+      - 3dpr
+      overwrite: true
+      thickness: 3
+      type: test_base
+      width: 4
+    name: base
+    project_name: C:\gh\oomlout_oobb_holder_electronic_breakout_board_mcu_esp32
+    thing:
+      components:
+      - - depth: 3
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          height: 4
+          pos:
+          - 0
+          - 0
+          - 0
+          shape: rounded_rectangle
+          size:
+          - 59
+          - 59
+          - 3
+          type: positive
+          width: 4
+      - - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id001
+            - -22.5
+            - -22.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id001
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id001
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id002
+            - -22.5
+            - -7.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id002
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id002
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id003
+            - -22.5
+            - 7.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id003
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id003
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id004
+            - -22.5
+            - 22.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id004
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id004
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id005
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id005
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id005
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id006
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id006
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id006
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id007
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id007
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id007
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id008
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id008
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id008
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id009
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id009
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id009
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id010
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id010
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id010
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id011
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id011
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id011
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id012
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id012
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id012
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id013
+            - -22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id013
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id013
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id014
+            - -22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id014
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id014
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id015
+            - -22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id015
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id015
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id016
+            - -22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id016
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id016
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id017
+            - -22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id017
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id017
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id018
+            - -22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id018
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id018
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id019
+            - -22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id019
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id019
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id020
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id020
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id020
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id021
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id021
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id021
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id022
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id022
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id022
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id023
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id023
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id023
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id024
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id024
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id024
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id025
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id025
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id025
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id026
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id026
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id026
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id027
+            - -22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id027
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id027
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id028
+            - -22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id028
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id028
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id029
+            - -22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id029
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id029
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id030
+            - -22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id030
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id030
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id031
+            - -22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id031
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id031
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id032
+            - -22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id032
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id032
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id033
+            - -22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id033
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id033
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id034
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id034
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id034
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id035
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id035
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id035
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id036
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id036
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id036
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id037
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id037
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id037
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id038
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id038
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id038
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id039
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id039
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id039
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id040
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id040
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id040
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id041
+            - -22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id041
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id041
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id042
+            - -22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id042
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id042
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id043
+            - -22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id043
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id043
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id044
+            - -22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id044
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id044
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id045
+            - -22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id045
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id045
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id046
+            - -22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id046
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id046
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id047
+            - -22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id047
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id047
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id048
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id048
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id048
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id049
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id049
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id049
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id050
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id050
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id050
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id051
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id051
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id051
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id052
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id052
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id052
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id053
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id053
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id053
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id054
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id054
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id054
+            r: 1.5
+            shape: cylinder
+            type: negative
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id055
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id055
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id055
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 4
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id056
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id056
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id056
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id057
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id057
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id057
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - 11.43
+          - 23.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id058
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id058
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id058
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 4
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id059
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id059
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id059
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id060
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id060
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id060
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - -11.43
+          - 23.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id061
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id061
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id061
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 4
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id062
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id062
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id062
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id063
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id063
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id063
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - -11.43
+          - -23.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id064
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id064
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id064
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 4
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id065
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id065
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id065
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 4
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: laser
+              pos: &id066
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 3dpr
+              pos: *id066
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 4
+              inclusion: 'true'
+              pos: *id066
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - 11.43
+          - -23.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - 9.25
+            - 19.3
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - -14.0
+            - 19.3
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - -14.0
+            - -25.650000000000002
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - 9.25
+            - -25.650000000000002
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - 10.93
+            - -19.55
+            - 0
+            shape: cube
+            size:
+            - 3.54
+            - 39.1
+            - 6
+            type: negative
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - -14.469999999999999
+            - -19.55
+            - 0
+            shape: cube
+            size:
+            - 3.54
+            - 39.1
+            - 6
+            type: negative
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - -9.25
+            - 18.9
+            - 0
+            shape: cube
+            size:
+            - 18.5
+            - 8
+            - 6
+            type: negative
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 4
+            pos:
+            - -6.0
+            - 24.9
+            - 0
+            shape: cube
+            size:
+            - 12
+            - 14
+            - 6
+            type: negative
+            width: 4
+      components_objects:
+      - depth: 3
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_plate
+        thickness: 3
+        type: p
+        width: 4
+      - both_holes: true
+        depth: 3
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        holes:
+        - top
+        - bottom
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_holes
+        thickness: 3
+        type: p
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.43
+        - 23.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.43
+        - 23.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.43
+        - -23.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.43
+        - -23.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.625
+        - 22.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.625
+        - 22.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.625
+        - -22.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.625
+        - -22.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 12.7
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 3.54
+        - 39.1
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -12.7
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 3.54
+        - 39.1
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 22.9
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 18.5
+        - 8
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 4
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 31.9
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 12
+        - 14
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      components_string:
+      - oobb_plate_shape_p_type_3_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra
+      - oobb_holes_shape_p_type_3_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_true_both_holes_'top'_'bottom'_holes
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_-23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_-23.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_cube_shape_p_type_11.625_22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_p_type_-11.625_22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_p_type_-11.625_-22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_p_type_11.625_-22.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_n_type_12.7_0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
+      - oobb_cube_shape_n_type_-12.7_0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
+      - oobb_cube_shape_n_type_0_22.9_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_18.5_8_6_size
+      - oobb_cube_shape_n_type_0_31.9_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_12_14_6_size
+      description: test base 4x4x3
+      extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      folder: C:\gh\oomlout_oobb_version_4_generated_parts\thigns\oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      height: 4
+      height_mm: 59
+      id: oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      thickness: 3
+      thickness_mm: 3
+      type: test_base
+      width: 4
+      width_mm: 59
+  oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32:
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+    kwargs:
+      extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      height: 5
+      modes:
+      - 3dpr
+      overwrite: true
+      thickness: 3
+      type: test_base
+      width: 4
+    name: base
+    project_name: C:\gh\oomlout_oobb_holder_electronic_breakout_board_mcu_esp32
+    thing:
+      components:
+      - - depth: 3
+          extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+          height: 5
+          pos:
+          - 0
+          - 0
+          - 0
+          shape: rounded_rectangle
+          size:
+          - 59
+          - 74
+          - 3
+          type: positive
+          width: 4
+      - - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id067
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id067
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id067
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id068
+            - -22.5
+            - -15.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id068
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id068
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id069
+            - -22.5
+            - 0.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id069
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id069
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id070
+            - -22.5
+            - 15.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id070
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id070
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id071
+            - -22.5
+            - 30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id071
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id071
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id072
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id072
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id072
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id073
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id073
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id073
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id074
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id074
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id074
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id075
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id075
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id075
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id076
+            - 22.5
+            - 30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id076
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id076
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id077
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id077
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id077
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id078
+            - -7.5
+            - -30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id078
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id078
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id079
+            - 7.5
+            - -30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id079
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id079
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id080
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id080
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id080
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id081
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id081
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id081
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id082
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id082
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id082
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id083
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id083
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id083
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id084
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id084
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id084
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id085
+            - 22.5
+            - 30.0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id085
+            r: 3.25
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id085
+            r: 3.0
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id086
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id086
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id086
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id087
+            - -22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id087
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id087
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id088
+            - -22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id088
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id088
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id089
+            - -22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id089
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id089
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id090
+            - -22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id090
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id090
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id091
+            - -22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id091
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id091
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id092
+            - -22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id092
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id092
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id093
+            - -22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id093
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id093
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id094
+            - -22.5
+            - 30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id094
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id094
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id095
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id095
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id095
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id096
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id096
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id096
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id097
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id097
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id097
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id098
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id098
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id098
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id099
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id099
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id099
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id100
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id100
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id100
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id101
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id101
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id101
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id102
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id102
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id102
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id103
+            - 22.5
+            - 30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id103
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id103
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id104
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id104
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id104
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id105
+            - -15.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id105
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id105
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id106
+            - -7.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id106
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id106
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id107
+            - 0.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id107
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id107
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id108
+            - 7.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id108
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id108
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id109
+            - 15.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id109
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id109
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id110
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id110
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id110
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id111
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id111
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id111
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id112
+            - -22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id112
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id112
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id113
+            - -22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id113
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id113
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id114
+            - -22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id114
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id114
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id115
+            - -22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id115
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id115
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id116
+            - -22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id116
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id116
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id117
+            - -22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id117
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id117
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id118
+            - -22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id118
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id118
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id119
+            - -22.5
+            - 30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id119
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id119
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id120
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id120
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id120
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id121
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id121
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id121
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id122
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id122
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id122
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id123
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id123
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id123
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id124
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id124
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id124
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id125
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id125
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id125
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id126
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id126
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id126
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id127
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id127
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id127
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id128
+            - 22.5
+            - 30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id128
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id128
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id129
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id129
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id129
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id130
+            - -15.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id130
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id130
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id131
+            - -7.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id131
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id131
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id132
+            - 0.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id132
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id132
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id133
+            - 7.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id133
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id133
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id134
+            - 15.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id134
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id134
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id135
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id135
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id135
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id136
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id136
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id136
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id137
+            - -22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id137
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id137
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id138
+            - -22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id138
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id138
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id139
+            - -22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id139
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id139
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id140
+            - -22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id140
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id140
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id141
+            - -22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id141
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id141
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id142
+            - -22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id142
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id142
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id143
+            - -22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id143
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id143
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id144
+            - -22.5
+            - 30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id144
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id144
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id145
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id145
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id145
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id146
+            - 22.5
+            - -22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id146
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id146
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id147
+            - 22.5
+            - -15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id147
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id147
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id148
+            - 22.5
+            - -7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id148
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id148
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id149
+            - 22.5
+            - 0.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id149
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id149
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id150
+            - 22.5
+            - 7.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id150
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id150
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id151
+            - 22.5
+            - 15.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id151
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id151
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id152
+            - 22.5
+            - 22.5
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id152
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id152
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id153
+            - 22.5
+            - 30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id153
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id153
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id154
+            - -22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id154
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id154
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id155
+            - -15.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id155
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id155
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id156
+            - -7.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id156
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id156
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id157
+            - 0.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id157
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id157
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id158
+            - 7.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id158
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id158
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id159
+            - 15.0
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id159
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id159
+            r: 1.5
+            shape: cylinder
+            type: negative
+        - - h: 200
+            inclusion: laser
+            m: ''
+            pos: &id160
+            - 22.5
+            - -30.0
+            - -100.0
+            r: 1.5
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 3dpr
+            m: ''
+            pos: *id160
+            r: 1.8
+            shape: cylinder
+            type: negative
+          - h: 200
+            inclusion: 'true'
+            m: ''
+            pos: *id160
+            r: 1.5
+            shape: cylinder
+            type: negative
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id161
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id161
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id161
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 5
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id162
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id162
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id162
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id163
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id163
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id163
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - 11.43
+          - 28.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id164
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id164
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id164
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 5
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id165
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id165
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id165
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id166
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id166
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id166
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - -11.43
+          - 28.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id167
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id167
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id167
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 5
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id168
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id168
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id168
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id169
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id169
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id169
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - -11.43
+          - -18.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - objects:
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.4
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id170
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id170
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id170
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.9
+              height: 5
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -1.9
+              r1: 1.8
+              r2: 3.6
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id171
+              - 0
+              - 0
+              - -6.0
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id171
+              r: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id171
+              r: 1.8
+              radius: 1.8
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 1.7
+              height: 5
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -1.7
+              r1: 1.5
+              r2: 2.9
+              shape: cylinder
+              type: positive
+              width: 4
+          - - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: laser
+              pos: &id172
+              - 0
+              - 0
+              - -6.0
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 3dpr
+              pos: *id172
+              r: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+            - depth: 6
+              extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+              h: 6
+              height: 5
+              inclusion: 'true'
+              pos: *id172
+              r: 1.5
+              radius: 1.5
+              shape: cylinder
+              type: positive
+              width: 4
+          pos:
+          - 11.43
+          - -18.495
+          - 0
+          rot:
+          - 180
+          - 0
+          - 0
+          type: rotation
+          typetype: n
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - 9.25
+            - 24.3
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - -14.0
+            - 24.3
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - -14.0
+            - -20.650000000000002
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - 9.25
+            - -20.650000000000002
+            - 3
+            shape: cube
+            size:
+            - 4.75
+            - 6.35
+            - 3
+            type: positive
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - 10.93
+            - -14.55
+            - 0
+            shape: cube
+            size:
+            - 3.54
+            - 39.1
+            - 6
+            type: negative
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - -14.469999999999999
+            - -14.55
+            - 0
+            shape: cube
+            size:
+            - 3.54
+            - 39.1
+            - 6
+            type: negative
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - -9.25
+            - 23.9
+            - 0
+            shape: cube
+            size:
+            - 18.5
+            - 8
+            - 6
+            type: negative
+            width: 4
+      - - - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+            height: 5
+            pos:
+            - -6.0
+            - 29.9
+            - 0
+            shape: cube
+            size:
+            - 12
+            - 14
+            - 6
+            type: negative
+            width: 4
+      components_objects:
+      - depth: 3
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_plate
+        thickness: 3
+        type: p
+        width: 4
+      - both_holes: true
+        depth: 3
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        holes:
+        - top
+        - bottom
+        - left
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_holes
+        thickness: 3
+        type: p
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.43
+        - 28.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.43
+        - 28.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.43
+        - -18.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - depth: 6
+        extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.43
+        - -18.495
+        - 0
+        radius_name: m3
+        rot:
+        - 180
+        - 0
+        - 0
+        save_type: all
+        shape: oobb_screw_countersunk
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.625
+        - 27.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.625
+        - 27.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -11.625
+        - -17.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 11.625
+        - -17.475
+        - 3
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 4.75
+        - 6.35
+        - 3
+        thickness: 3
+        type: p
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 12.7
+        - 5
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 3.54
+        - 39.1
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - -12.7
+        - 5
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 3.54
+        - 39.1
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 27.9
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 18.5
+        - 8
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      - extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+        height: 5
+        modes:
+        - 3dpr
+        overwrite: true
+        pos:
+        - 0
+        - 36.9
+        - 0
+        save_type: all
+        shape: oobb_cube
+        size:
+        - 12
+        - 14
+        - 6
+        thickness: 3
+        type: n
+        width: 4
+      components_string:
+      - oobb_plate_shape_p_type_3_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra
+      - oobb_holes_shape_p_type_3_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_true_both_holes_'top'_'bottom'_'left'_holes
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_28.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_28.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_-11.43_-18.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_screw_countersunk_shape_n_type_m3_radius_name_6_depth_11.43_-18.495_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_180_0_0_rot
+      - oobb_cube_shape_p_type_11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_p_type_-11.625_27.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_p_type_-11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_p_type_11.625_-17.475_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_4.75_6.35_3_size
+      - oobb_cube_shape_n_type_12.7_5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
+      - oobb_cube_shape_n_type_-12.7_5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_3.54_39.1_6_size
+      - oobb_cube_shape_n_type_0_27.9_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_18.5_8_6_size
+      - oobb_cube_shape_n_type_0_36.9_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_3_thickness_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32_extra_12_14_6_size
+      description: test base 4x5x3
+      extra: electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      folder: C:\gh\oomlout_oobb_version_4_generated_parts\thigns\oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      height: 5
+      height_mm: 74
+      id: oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+      thickness: 3
+      thickness_mm: 3
+      type: test_base
+      width: 4
+      width_mm: 59
+project_id: oomlout_oobb_holder_electronic_breakout_board_mcu_esp32
+project_name: Oomlout oobb holder electronic breakout board mcu esp32
+project_repo: https://github.com/oomlout/oomlout_oobb_holder_electronic_breakout_board_mcu_esp32

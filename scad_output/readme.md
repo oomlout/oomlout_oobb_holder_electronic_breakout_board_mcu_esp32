@@ -1,4 +1,14 @@
-# 
+# Oomlout oobb holder electronic breakout board mcu esp32
 
 
 ## parts
+
+### oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+* link: [/oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32](oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32)  
+![](oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32/3dpr_300.png)  ![](oobb_test_base_04_04_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32/image_300.jpg)
+ 
+
+### oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32
+* link: [/oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32](oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32)  
+![](oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32/3dpr_300.png)  ![](oobb_test_base_04_05_03_ex_electronic_breakout_board_mcu_esp32_30_pin_espressif_esp32/image_300.jpg)
+ 
